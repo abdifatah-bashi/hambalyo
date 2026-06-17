@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-burgundy: #7A303F;
+  --color-burgundy-hover: #5A232F;
+  --color-ivory: #FDFBF7;
+  --color-gold: #D4AF37;
+  --color-text-dark: #333333;
+  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background-color: var(--color-ivory);
+  color: var(--color-text-dark);
+}
